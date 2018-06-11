@@ -10,6 +10,11 @@ class Crinja::Util::ScopeMap(K, V)
 
   delegate :[]=, :delete, :clear, :merge!, to: scope
 
+  # TODO: Remove when crystal-lang/crystal#6177 is fixed.
+  def []=(key : K, value : V)
+    scope[key] = value
+  end
+
   def size
     keys.size
   end
