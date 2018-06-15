@@ -1,12 +1,12 @@
 version: 1.0
 shards:
   baked_file_system:
-    github: schovi/baked_file_system
-    version: 0.9.5
+    github: straight-shoota/baked_file_system
+    commit: 8f829baaf9b777931160860378cad9473299ed2b
 
   crinja:
     path: ../../
-    version: 0.2.1
+    version: 0.3.0
 
   kilt:
     github: jeromegn/kilt

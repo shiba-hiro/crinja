@@ -2,11 +2,11 @@ version: 1.0
 shards:
   crinja:
     path: ../../
-    version: 0.2.1
+    version: 0.3.0
 
   kemal:
     github: kemalcr/kemal
-    commit: 50f82f51874babe92cbb808013647a7989d54354
+    commit: c2236acf3a630e844928edd607699e8738992a5c
 
   kilt:
     github: jeromegn/kilt

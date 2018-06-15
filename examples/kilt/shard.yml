@@ -9,6 +9,7 @@ dependencies:
   kilt:
     github: jeromegn/kilt
   baked_file_system:
-    github: schovi/baked_file_system
+    github: straight-shoota/baked_file_system
+    branch: jm/crystal-0.25.0
   crinja:
     path: ../../
