@@ -54,7 +54,7 @@ INHERITANCE_TEST_LOADER = Crinja::Loader::HashLoader.new({
     {% endif %}
     {% endblock %}
     TPL
-})
+  })
 
 describe Crinja::Tag::Extends do
   it "simple" do
@@ -197,7 +197,7 @@ describe Crinja::Tag::Extends do
       "helpers.html" => <<-'TPL',
         {% macro foo(x) %}{{ the_foo + x }}{% endmacro %}
         TPL
-    })
+      })
     render_load("index.html", {"the_foo" => 42}, loader: loader).split.should eq ["43", "44", "45"]
   end
 end
